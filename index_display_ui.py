@@ -24,7 +24,7 @@ def create_or_get_overlay_node():
             try:
                 cmds.connectAttr(f"{transform}.{attr}{axis}", f"{overlayTransform}.{attr}{axis}", force=True)
             except Exception as e:
-                cmds.warning(f"连接 {attr}{axis} 失败: {e}")
+                cmds.warning(f" {attr}{axis} failed to connect: {e}")
     
     
     return mesh, overlay
@@ -86,3 +86,4 @@ def build_ui():
     cmds.setParent("..")
 # Call to open the UI
 build_ui()
+
