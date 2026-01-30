@@ -3,6 +3,17 @@ A C++ tool for a better index display experience
 
 ***
 
+Note: This tool still needs further polish and documentation.
+
+***
+
+# Purpose
+
+Maya's default component ID display is a pain in the butt. Doesn't have a backface culling. So I made this tool.
+
+<img width="1210" height="863" alt="image" src="https://github.com/user-attachments/assets/4df0f7c9-a6a5-4f71-98e7-85bb6b053dd1" />
+
+
 # How To Use
 1. Download **FaceIndex.mll** and **index_display_ui.py**.
 <img width="344" height="302" alt="{3DA97E7F-2329-456B-B46A-65F57EDD79C0}" src="https://github.com/user-attachments/assets/6cf3e423-2c4d-46b0-8e2a-2157b14e65fe" />
